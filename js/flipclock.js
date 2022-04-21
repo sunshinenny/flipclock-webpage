@@ -1528,7 +1528,7 @@ var FlipClock;
 			var hours = date.getHours();
 			var merid = "";// hours > 12 ? 'PM' : 'AM';
 			var data   = [
-				hours > 12 ? hours - 12 : (hours === 0 ? 12 : hours),
+				hours > 12 ? hours : (hours === 0 ? 12 : hours),
 				date.getMinutes()			
 			];
 
