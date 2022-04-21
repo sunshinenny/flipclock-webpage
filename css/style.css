@@ -10,7 +10,7 @@ body
 	justify-content: center;
 	align-items: center;
 	/*min-height: 100vh;*/
-	background: #222;
+	background: #fff;
 }
 .clock
 {
@@ -19,7 +19,7 @@ body
 }
 .flip-clock-dot
 {
-	background: #ccc;
+	background: #504f4f;
 	/*background: #ffffff;*/
 }
 .flip-clock-meridium a
